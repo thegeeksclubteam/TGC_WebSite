@@ -15,68 +15,68 @@
 
   <!-- This is the home page -->
 
-
-  <!-- Navigation bar -->
-  <div class="container-fluid">
+  <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
-      <nav>
-        <div class="tgc-logo">
-          <!-- img -->TGC
-        </div>
 
-        <div class="nav-items">
-          <a href="#!" class="nav-item">Item 1</a>
-          <a href="#!" class="nav-item">Item 2</a>
-          <a href="#!" class="nav-item">Item 3</a>
-          <a href="#!" class="nav-item">Item 4</a>
-        </div>
-    </nav>
+      <a class="navbar-brand" href="#">
+        <!--img src="./img/tgc-icon.svg" width="30" height="30" class="d-inline-block align-top" alt=""-->
+        T<span class="italic bold">G</span>C
+      </a>
+
+      <ul class="nav navbar-nav">
+        <li><a href="#!" class="nav-item">Evenement</a></li>
+        <li class=""><a href="#!" class="nav-item">Partenaire</a></li>
+        <li><a href="#!" class="nav-item">Contact Us</a></li>
+        <li><a href="#!" class="nav-item">Login/Sign Up</a></li>
+      </ul>
+
     </div>
-  </div>
+  </nav>
 
   <!-- Header -->
-  <div class="container-fluid">
-    <div class="container">
-      <h1>The <span class="bold italic">Geeks</span> Club</h1>
-      <h3>FSAC's Geeks Universe!</h3>
+  <section class="container-fluid  container-header">
+    <div class="container center-text">
+      <h1 class="tgc-heading-text">The<span class="bold italic">Geeks</span>Club</h1>
+      <h3 class="tgc-subheading">FSAC's Geeks Universe!</h3>
     </div>
-  </div>
+  </section>
 
 
   <!-- body -->
     <!-- parti 1: -->
-  <div class="container-fluid">
+  <section class="container-fluid container-cards">
     <div class="container">
       <div class="row">
-        <div class="col-md-4 cards">
+        <div class="col-md-4 cards center-text">
             <span><img src="./img/icon-01.png" alt="Performanece"></span>
             <h3>Performance</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p class="card-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         </div>
 
-        <div class="col-md-4 cards">
+        <div class="col-md-4 cards center-text">
             <span><img src="./img/icon-02.png" alt="Speed"></span>
             <h3>Speed</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p class="card-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         </div>
 
-        <div class="col-md-4 cards">
+        <div class="col-md-4 cards center-text">
             <span><img src="./img/icon-03.png" alt="Scalability"></span>
             <h3>Scalability</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p class="card-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         </div>
       </div>
     </div>
-  </div>
+  </section>
 
     <!-- parti 2: Events-->
-  <div class="container-fluid events-container">
+  <section class="container-fluid events-container">
     <div class="container events-inner-container">
-      <div class="row">
-
+      <div class="row gutter-20">
         <div class="col-md-6 events">
           <div class="inner-events">
-            <div class="event-img"></div>
+            <div class="event-img">
+              <img src="./img/2.jpg" alt="event-photo">
+            </div>
 
             <div class="event-body">
 
@@ -92,7 +92,9 @@
 
         <div class="col-md-6 events">
           <div class="inner-events">
-            <div class="event-img"></div>
+            <div class="event-img">
+              <img src="./img/1.jpg" alt="event-photo">
+            </div>
 
             <div class="event-body">
 
@@ -108,7 +110,9 @@
 
         <div class="col-md-6 events">
           <div class="inner-events">
-            <div class="event-img"></div>
+            <div class="event-img">
+              <img src="./img/1.jpg" alt="event-photo">
+            </div>
 
             <div class="event-body">
 
@@ -121,16 +125,17 @@
             </div>
           </div>
         </div>
-
       </div>
 
-      <a href="#!" class="center-text">All Events <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a>
+      <a href="#!" class="center-text events-link"><span>All Events</span><img src="./img/arrow-line-right.png" alt=">">
+        <!--span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span-->
+      </a>
 
     </div>
-  </div>
+  </section>
 
     <!-- parti 3: Partners-->
-  <div class="container-fluid partners-container">
+  <section class="container-fluid partners-container">
     <div class="container">
       <h1>PARTNERS</h1>
 
@@ -146,10 +151,10 @@
 
       </div>
     </div>
-  </div>
+  </section>
 
     <!-- parti 4: Organizers-->
-  <div class="container-fluid organizers-container">
+  <section class="container-fluid organizers-container">
     <div class="container orgs-inner-container">
       <h1>ORGANIZERS</h1>
 
@@ -265,10 +270,10 @@
 
       </div>
     </div>
-  </div>
+  </section>
 
     <!-- parti 4: About-->
-  <div class="container-fluid about-container">
+  <section class="container-fluid about-container">
     <div class="container">
       <div class="row">
 
@@ -280,10 +285,10 @@
 
       </div>
     </div>
-  </div>
+  </section>
 
-    <!-- parti 4: Footer-->
-  <div class="container-fluid footer-container">
+    <!-- parti 5: Footer-->
+  <section class="container-fluid footer-container">
     <div class="container footer-inner-container">
       <div class="row">
 
@@ -337,7 +342,7 @@
 
       </div>
     </div>
-  </div>
+  </section>
 
   <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
